@@ -13,8 +13,12 @@ const client = new Discord.Client();
 const prefix = 'm.' //PREFİXİNİZİ GİRİNİZ.
 
 client.on("ready", async () => {
-client.user.setActivity(`+yardım`, { type: "PLAYING" });
+client.user.setActivity(`PREFİX = m.`, { type: "WATCHING" });
   console.log("`");
+});
+
+client.on("ready", () => {
+client.channels.cache.get('911364812406153256').join();
 });
 
 setInterval(() => {
@@ -139,7 +143,7 @@ client.on('message', async message => {
 
 
 client.on('ready', () => {
-client.user.setActivity(`+ekle (Kısa Link)`, { type: 'PLAYING' })
+client.user.setActivity(`PREFİX = m. (Kısa Link)`, { type: 'WATCHING' })
 client.user.setStatus('dnd')
   
   //client.user.setStatus('online') -> çevrimiçi -> PARADOX DEVELOPMENT
@@ -204,9 +208,7 @@ Lütfen spam ATMAYINIZ`  )
 //tokenininizi giriniz.
 client.login(process.env.token);
 
-client.on("ready", () => {
-client.channels.cache.get('911364812406153256').join();
-});
+
 
 
 //MollyYT

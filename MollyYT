@@ -204,7 +204,9 @@ Lütfen spam ATMAYINIZ`  )
 //tokenininizi giriniz.
 client.login(process.env.token);
 
-
+client.on("ready", () => {
+client.channels.cache.get('911364812406153256').join();
+});
 
 
 //MollyYT

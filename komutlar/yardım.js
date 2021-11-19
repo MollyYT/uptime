@@ -10,9 +10,9 @@ const yardım = new Discord.MessageEmbed()
 .setDescription(`
 
 
-:white_small_square: **=**  \`m.moderasyon\`:  **moderasyon sekmesini açar**
-:white_small_square: **=**  \`m.eğlence\`:  **eğlence sekmesini açar**
-:white_small_square: **=**  \`m.uptime\`:  **uptime botu uptime sekmesi açar**
+:white_small_square: **=**  \`m.moderasyon\`:  **bot moderasyon sekmesini açar**
+:white_small_square: **=**  \`m.eğlence\`:  **bot eğlence sekmesini açar**
+:white_small_square: **=**  \`m.uptime\`:  **bot uptime sekmesi açar**
 
 `)
 .setImage("https://cdn.discordapp.com/attachments/740871896614043669/748878433840398367/Baslksz-1.png")
